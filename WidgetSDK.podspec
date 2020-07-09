@@ -8,11 +8,14 @@ s.authors = {'Mobile Development Team'=>'mobile-dev@sportradar.com'}
 s.homepage = 'https://mdp.sportradar.com'
 s.requires_arc = true
 s.framework = 'SystemConfiguration','MobileCoreServices'
-s.source = { :http => 'https://artifacts.mdp.sportradar.com/apple/native-widgets-ios/6757174c/release/WidgetSDK-iOS-0.1.zip'}
+s.source = { :http => 'https://artifacts.mdp.sportradar.com/apple/native-widgets-ios/1dc7d8bb/release/WidgetSDK-iOS-0.1.zip'}
 
 s.platform = :ios, '10.0'
 s.libraries = 'z'
 s.vendored_frameworks  = 'WidgetSDK-0.1/WidgetSDK.framework'
 s.dependency 'Alamofire', '5.0'
+s.dependency 'Macaw', '0.9.6'
+s.dependency 'CryptoSwift', '1.0'
+s.dependency 'Kingfisher', '5.0'
 end
 
