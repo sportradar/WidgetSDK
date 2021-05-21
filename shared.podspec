@@ -8,7 +8,7 @@ s.authors = {'Mobile Development Team'=>'mobile-dev@sportradar.com'}
 s.homepage = 'https://mdp.sportradar.com'
 s.requires_arc = true
 s.framework = 'SystemConfiguration','MobileCoreServices'
-s.source = { :http => 'https://artifacts.mdp.sportradar.com/apple/native-widgets-core/adab7fad/release/shared-iOS-0.1.14.zip'}
+s.source = { :http => 'https://artifacts.mdp.sportradar.com/apple/native-widgets-core/18a02e7e/release/shared-iOS-0.1.14.zip'}
 
 s.platform = :ios, '10.0'
 s.libraries = 'z'
