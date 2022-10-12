@@ -22,14 +22,14 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "WidgetSDK",
-            url: "https://artifacts.mdp.sportradar.com/apple/native-widgets-core/bcf3ba4e/release/WidgetSDK-iOS-0.4.7.zip",
-            checksum: "2d8246155e572308dcd4926a281a853b33ee4ce3187dea1873d098ffd27a4afd"
+            url: "https://artifacts.mdp.sportradar.com/apple/native-widgets-core/6005c047/release/WidgetSDK-iOS-0.4.7.zip",
+            checksum: "4502b78c0ff271340d9217d2f79fc5136430279d96e907982d2b7d973ac9bce7"
         ),
         .target(
             name: "WidgetSDKTarget",
                 dependencies: [
                     .target(name: "WidgetSDK"),
-                    .product(name: "shared", package: "native-widgets-spm-shared"),
+                    .product(name: "shared", package: "mobile-us-widgets-shared"),
                     .product(name: "Alamofire", package: "Alamofire"),
                     .product(name: "SnapKit", package: "SnapKit"),
                     .product(name: "Amplitude", package: "Amplitude-iOS")
