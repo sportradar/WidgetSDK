@@ -14,7 +14,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/sportradar/mobile-us-widgets-shared", exact: "0.4.8"),
+        .package(url: "https://github.com/sportradar/mobile-us-widgets-shared", exact: "0.4.9"),
         .package(url: "https://github.com/Alamofire/Alamofire", from: "5.6.0"),
         .package(url: "https://github.com/SnapKit/SnapKit", from: "5.6.0"),
         .package(url: "https://github.com/amplitude/Amplitude-iOS", from: "8.10.0")
@@ -22,8 +22,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "WidgetSDK",
-            url: "https://artifacts.mdp.sportradar.com/apple/native-widgets-core/8b837838/release/WidgetSDK-iOS-0.4.8.zip",
-            checksum: "f8b2b741542bf85a07f33448b615e3bcd2ef759598a136753f80e3aac8cbdc12"
+            url: "https://artifacts.mdp.sportradar.com/apple/native-widgets-core/e924aece/release/WidgetSDK-iOS-0.4.9.zip",
+            checksum: "10c1684597981f47a50f4ef7c0e5ad8c577dafec97451cc1a644b79c4fceef58"
         ),
         .target(
             name: "WidgetSDKTarget",
